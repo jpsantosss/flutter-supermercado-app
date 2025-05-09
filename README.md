@@ -1,16 +1,36 @@
-# supermarket_app_web
+# Flutter Supermarket App
 
-A new Flutter project.
+This project is a supermarket application developed in Flutter, aimed at demonstrating knowledge in cross-platform interface development.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+- User-friendly interface for product navigation
+- Compatibility with multiple platforms: Android, iOS, Web, Windows, macOS, and Linux
+- Modular structure to facilitate future expansions
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter](https://flutter.dev/)
+- [Dart](https://dart.dev/)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚙️ How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jpsantosss/flutter-supermercado-app.git
+
+2. Navigate to the project directory:
+   ```bash
+   cd flutter-supermercado-app
+
+3. Install the dependencies:
+   ```bash
+   flutter pub get
+   
+4. Run the application:
+   ```bash
+   flutter run
+
+## 🧑‍🎓 About
+
+This project was developed as part of an academic project to demonstrate skills in cross-platform application development using Flutter.
