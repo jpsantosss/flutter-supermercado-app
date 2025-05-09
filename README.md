@@ -1,4 +1,4 @@
-# Flutter Supermarket App
+# 🛒 Flutter Supermarket App
 
 This project is a supermarket application developed in Flutter, aimed at demonstrating knowledge in cross-platform interface development.
 
