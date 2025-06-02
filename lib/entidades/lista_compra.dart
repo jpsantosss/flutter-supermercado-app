@@ -77,7 +77,7 @@ class ListaCompra extends Entidade {
   Map<String, dynamic> converterParaMapa() {
     final mapa = {DicionarioDados.nome: nome};
     if (identificador > 0) {
-      mapa[DicionarioDados.idListaCompra] = identificador;
+      mapa[DicionarioDados.idListaCompra] = identificador.toString();
     }
     return mapa;
   }

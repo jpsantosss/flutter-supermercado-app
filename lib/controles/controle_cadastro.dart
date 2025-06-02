@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'package:sqflite/sqflite.dart';
 import '../banco_dados/acesso_banco_dados.dart';
 import '../entidades/entidade.dart';
 

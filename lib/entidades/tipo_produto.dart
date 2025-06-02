@@ -6,9 +6,10 @@ class TipoProduto extends Entidade {
 
   TipoProduto({int idTipoProduto = 0, this.nome = ''}) : super(idTipoProduto);
 
-  TipoProduto.criarDeMapa(Map<String, dynamic> mapa) : super.criarDeMapa(mapa) {
+  TipoProduto.criarDeMapa(Map<String, dynamic> mapa)
+      : nome = mapa[DicionarioDados.nome] ?? '',
+        super.criarDeMapa(mapa) {
     identificador = mapa[DicionarioDados.idTipoProduto];
-    nome = mapa[DicionarioDados.nome];
   }
 
   @override
@@ -23,7 +24,7 @@ class TipoProduto extends Entidade {
     };
 
     if (identificador > 0) {
-      valores[DicionarioDados.idTipoProduto] = identificador;
+      valores[DicionarioDados.idTipoProduto] = identificador.toString();
     }
 
     return valores;

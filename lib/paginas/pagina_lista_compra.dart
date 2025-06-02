@@ -3,7 +3,6 @@ import '../controles/controle_cadastro_lista_compra.dart';
 import '../entidades/lista_compra.dart';
 import '../entidades/item_lista_compra.dart';
 import '../entidades/produto.dart';
-import '../entidades/entidade.dart';
 import '../paginas/pagina_entidade.dart';
 import '../paginas/mensagem.dart';
 import 'pagina_selecao_produtos.dart';
