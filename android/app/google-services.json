@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "999549184626",
+    "project_id": "mercado-52d8f",
+    "storage_bucket": "mercado-52d8f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999549184626:android:d8d48731560a17eeb230eb",
+        "android_client_info": {
+          "package_name": "br.com.fsflutter.supermarket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3G5h_4OmCfNX46MbKnvnZwYXk6qm4BOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
